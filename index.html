@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>М-СТАЙЛ</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css">
+	<link rel="stylesheet" href="libs/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+
+	<link href="http://allfont.ru/allfont.css?fonts=roboto-bold" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet"> 
+
+</head>	
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header_top">
+				<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="header_top_li">
+					<li class="header_top_li_el"><a href="">о компании</a></li>
+					<li class="header_top_li_el"><a href="">работа у нас</a></li>
+					<li class="header_top_li_el"><a href="">консультант плюс</a></li>
+				</ul>
+				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" id="last_top_el">ваш город:
+					<select name="select_region" id="top_li_dropdown">
+						<option value="">Санкт-петербург</option>
+						<option value="">Москва</option>
+						<option value="">Москва</option>
+						<option value="">Москва</option>
+						<option value="">Москва</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header_main_info">
+				<ul class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="header_main_info_li">
+					<li class="header_phone">
+						<img src="images/phonenumbers.png" alt="phone_numbers">
+						<a href="tel:+78122449595">+7 (812) 244-95-95</a>
+					</li>
+					<li class="header_phone">
+						
+						<a href="tel:8-800-2000-226">8-800-2000-226</a>
+					</li>
+					<li id="header_callback">
+						<a href="#">Заказать звонок</a>
+					</li>
+					<li class="hidden-xs">
+						
+					</li>
+				</ul>
+				<div class="col-lg-5 col-md-5 col-sm-5 hidden-xs" id="header_search_form">
+					<form action="mailto:jenykushnir@gmial.com">
+						<input type="search" name="search" placeholder="Поиск" id="header_search">
+						<input src="images/search.png" type="image" id="header_search_button" onclick="search()" alt="search_button">
+					</form>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header_menu">
+				<ul class="col-lg-8 col-md-7 col-sm-8 col-xs-12" id="menu_li">
+					<li class="menu_li_el">
+						<a href="">Продукты</a>
+					</li>
+					<li class="menu_li_el">
+						<a href="">Семинары и вебинары</a>
+					</li>
+					<li class="menu_li_el">
+						<a href="">Услуги</a>
+					</li>
+					<li class="menu_li_el">
+						<a href="">Тесты</a>
+					</li>
+					<li class="menu_li_el">
+						<a href="">Контакты</a>
+					</li>
+				</ul>
+				<ul class="col-lg-4 col-md-5 col-sm-4 col-xs-12" id="menu_log_li">
+					<li class="menu_log_el_1">
+						<a href="" title="Помощь">
+							<img src="images/info.png" alt="information"><span class="hidden-sm hidden-xs">Помощь</span>
+						</a>
+					</li>
+					<li class="menu_log_el_2">
+						<a href="" title="Личный кабинет">
+							<img src="images/log.png" alt="login" title="Личный кабинет"><span class="hidden-sm hidden-xs">Личный кабинет</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header_main">
+				<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-12 header_main_content">
+					<p id="header_main_p1"><a href="#">Главная</a> / <a href="#">Семинары и вебинары</a> / <a href="#">Семинары-тренинги </a>/ <a href="#">Трудовая книжка: от теории к практике</a></p>
+					<h1 id="header_main_h1">усн: отчитываемся за 2016 год. учитываем изменения с 2017 года</h1>
+					<p id="header_main_p2">карпухина л.с. <span>24.03.17</span> 9:00 - 13:00</p>
+					<button id="header_main_button">
+						записаться
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main_content">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="programm">
+						<h2 class="main_content_h2">Программа</h2>
+						<span class="programm_time">09:00 - 10:00</span>
+						<p class="main_content_p">Регистрация участников</p>
+
+						<span class="programm_time">10:00 - 12:00</span>
+						<p class="main_content_p">Семинар по  темам:</p>
+						<ul class="programm_list">
+							<li><span>Особенности признания доходов</span></li>
+							<li><span>Особенности признания некоторых видоврасходов</span></li>	
+							<li><span>Обновленные страховые взносы</span></li>
+							<li><span>Отчетность налоговых агентов по НДФЛ</span></li>
+							<li><span>Другие важные вопросы</span></li>
+						</ul>
+
+						<span class="programm_time">12:00 - 13:00</span>
+						<p class="main_content_p">Ответы на вопросы</p>
+						
+						<ol start="0" class="programm_list">
+							<li><span>Особенности признания доходов </span></li>
+							<li><span>Особенности признания некоторых видов расходов</span></li>
+							<li><span>Особенности признания доходов</span></li>
+							<li><span>Особенности признания некоторых видоврасходов</span></li>	
+							<li><span>Обновленные страховые взносы</span></li>
+							<li><span>Отчетность налоговых агентов по НДФЛ</span></li>
+							<li><span>Другие важные вопросы</span></li>
+							<li><span>Особенности признания доходов</span></li>
+							<li><span>Особенности признания некоторых видоврасходов</span></li>	
+							<li><span>Обновленные страховые взносы</span></li>
+							<li><span>Отчетность налоговых агентов по НДФЛ</span></li>
+							<li><span>Другие важные вопросы</span></li>
+							<li><span>Особенности признания доходов</span></li>
+							<li><span>Особенности признания некоторых видоврасходов</span></li>	
+							<li><span>Обновленные страховые взносы</span></li>
+							<li><span>Отчетность налоговых агентов по НДФЛ</span></li>
+							<li><span>Другие важные вопросы</span></li>
+						</ol>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="lector">
+					<h2 class="main_content_h2">Лектор</h2>
+					<div id="lector_profile">
+						<img src="images/lector.png" alt="lector_photo">
+						<h1 id="lector_name">Людмила Станиславовна Карпухина</h1>
+					</div>
+					<p class="lector_content_p">Налоговый консультант "М-СТАЙЛ", налоговый консультант, член Палаты налоговых консультантов России. Специалист с большим опытом практической работы в сфере бухучета,в том числе по МСФО.</p>
+
+					<h2 class="main_content_h2">Место проведения</h2>
+					<p class="lector_content_p">пл. Чернышевского, д.11,<br> Гостиница «Россия»,<br> 2 эт., зал «Петровский»</p>
+					<p id="lector_button">
+						<a href="">На карте</a>
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="price">
+					<div id="price_first">
+						<h2 class="main_content_h2">Стоимость</h2>
+						<span>4 500Р</span>
+						<p>Для тех, кто применяет упрощенную систему налообложення.</p>
+						<button>записаться</button>
+					</div>
+					<div id="price_second">
+						<h2>акция</h2>
+						<p id="price_second_p1">бесплатный семинар для клиентов м-стайл</p>
+						<p id="price_second_p2">Для тех, кто применяет упрощенную систему налообложення.</p>
+						<div id="price_second_a">
+							<a href="#">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="main_form">
+				<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-10 col-xs-offset-1" id="form">
+					<form class="contact_form" action="mailto:jenykushnir@gmial.com" method="post" name="contact_form">
+						<h2>Записаться на семинар</h2>
+						<fieldset id="contact_el_name">
+							<input id="name" type="text" name="name" required>
+							<label for="name" class="form_label">Имя</label>
+							<span class="contact_spans">Предпочитаем доверительные отношения</span>
+						</fieldset>
+						<fieldset id="contact_el_numbers">
+							<input id="phone" type="tel" name="phone" required>
+							<label for="phone" class="form_label">Телефон</label>
+							<span class="contact_spans">Для уточнение времени собеседования</span>
+						</fieldset>
+						<fieldset id="contact_el_email">
+							<input id="email" type="mail" name="email" required>
+							<label for="email" class="form_label">Email</label>
+							<span class="contact_spans">Вышлем условия и дополнительную информацию</span>
+						</fieldset>
+						<fieldset id="contact_el_button">
+							<button type="submit">отправить</button>
+						</fieldset>
+	 					<fieldset id="contact_el_text">
+	 						<p>Мы соблюдаем конфиденциальность и гарантируем неразглашение информации о клиентах и их заказах. Мы также гарантируем своим клиентам сохранность передаваемых нам для перевода документов, материалов и прочей информации.</p>
+	 					</fieldset>
+ 					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+    	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="demos">
+    	<h1 class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">Как проходят наши семинары-тренинги</h1>
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/Layer-12.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-13.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-14.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-15.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-12.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-13.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-14.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-15.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-12.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-13.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-14.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Layer-15.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="reviews_clients">
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 first_reviews">
+					<img src="images/reviews_first.png" alt="">
+					<p>RexLex Nova - первая специализированная российская коммерческая гибридная платформа (Техноброкер/Техноскаут/Консультант) для коммерциализации наукоемкой, инновационной технологии и продукции на локальные и глобальные рынки - выражает благодарность ООО «М-СТАЙЛ» за профессиональное, ответственное и своевременное информационно- аналитическое сопровождение программы КонсультантПлюс.</p>
+					<ul class="reviews_first_list">
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Анастасия Нечаева</li>
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Ведущий юрист <span>RexLex Nova</span></li>
+					</ul>
+				</div>
+				<div class="col-lg-5 col-lg-offset-0 col-md-5 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 second_reviews">
+					<img src="images/reviews_second.png" alt="">
+					<p>Выражаем благодарность и признательность ООО «М-СТАЙЛ» за услуги по информационному сопровождению СПС КонсультантПлюс. Будем рады сотрудничеству с вами вновь</p>
+					<ul class="reviews_second_list">
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Беспалова Тамара</li>
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Ведущий юрист <span>Комус</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="reviews_clients_2">
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 first_reviews">
+					<img src="images/reviews_first.png" alt="">
+					<p>RexLex Nova - первая специализированная российская коммерческая гибридная платформа (Техноброкер/Техноскаут/Консультант) для коммерциализации наукоемкой, инновационной технологии и продукции на локальные и глобальные рынки - выражает благодарность ООО «М-СТАЙЛ» за профессиональное, ответственное и своевременное информационно- аналитическое сопровождение программы КонсультантПлюс.</p>
+					<ul class="reviews_first_list">
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Анастасия Нечаева</li>
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Ведущий юрист <span>RexLex Nova</span></li>
+					</ul>
+				</div>
+				<div class="col-lg-5 col-lg-offset-0 col-md-5 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 second_reviews">
+					<img src="images/reviews_second.png" alt="">
+					<p>Выражаем благодарность и признательность ООО «М-СТАЙЛ» за услуги по информационному сопровождению СПС КонсультантПлюс. Будем рады сотрудничеству с вами вновь</p>
+					<ul class="reviews_second_list">
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Беспалова Тамара</li>
+						<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Ведущий юрист <span>Комус</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="seminars">
+				<h1 class="col-lg-11 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-11 col-xs-offset-1" id="seminars_h1">Другие семинары компании</h1>
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="first_seminar">
+					<h2>семинар</h2>
+					<img id="first_seminar_sale" src="images/sale.png" alt="">
+					<p>Социальные пособия: сложные ситуации в практике бухгалтера</p>
+					<ul id="seminar_first_list">
+						<li class="col-lg-4 col-md-3 col-sm-3 col-xs-6">Лектор <br><span>Колосова Наталья</span></li>
+						<li class="col-lg-4 col-md-3 col-sm-3 col-xs-6">Дата <br><span>22 февраля, 2017</span></li>
+						<li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">Время<br><span>10:00 - 13:30</span></li>
+						<li class="col-lg-1 col-md-3 col-sm-3 col-xs-6" id="seminar_first_img"><a href=""><img src="images/microt.png" alt="micro"></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="second_seminar">
+					<h2>вебинар</h2>
+					<p>Налог на прибыль: забытые расходы, спорные доходы</p>
+					<ul id="seminar_second_list">
+						<li class="col-lg-4 col-md-5 col-sm-4 col-xs-4">Лектор <br><span>Колосова Наталья</span></li>
+						<li class="col-lg-4 col-md-5 col-sm-4 col-xs-4">Дата <br><span>22 февраля, 2017</span></li>
+						<li class="col-lg-4 col-md-2 col-sm-4 col-xs-4" id="seminar_second_img"><a href=""><img src="images/player.png" alt="video"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer">
+				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12" id="footer_lists">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="company">
+						<ul>
+							<li><h1>о компании</h1></li>
+							<li><a href="">Работа у нас</a></li>
+							<li><a href="">Наши клиенты</a></li>
+							<li><a href="">Команда М-СТАЙЛ</a></li>
+							<li><a href="">Новости</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="product">
+						<ul>
+							<li><h1>продукты</h1></li>
+							<li><a href="">Консультант Плюс</a></li>
+							<li><a href="">Главная книга</a></li>
+							<li><a href="">Астрал-Отчет</a></li>
+							<li><a href="">World Business Law</a></li>
+							<li><a href="">Мобильное приложение</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="foot_seminar">
+						<ul>
+							<li><h1>семинары</h1></li>
+							<li><a href="">Вебинары</a></li>
+							<li><a href="">Квартальные семинары</a></li>
+							<li><a href="">Семинары-тренинги</a></li>
+							<li><a href="">Обучающие семинары</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="service">
+						<ul>
+							<li><h1>услуги</h1></li>
+							<li><a href="">Горячая линия</a></li>
+							<li><a href="">Правовые сборники</a></li>
+							<li><a href="">Консультации</a></li>
+							<li><a href="">Проверка контрагента</a></li>
+							<li><a href="">«Что нового?»</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer_info">
+						<ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer_info_list">
+							<li class="col-lg-3 col-md-3 col-sm-4 col-xs-12" id="hot_line">
+								<h4>Горячая линия</h4>
+								<span>8-800-2000-226</span>
+							</li>
+							<li class="col-lg-3 col-md-3 col-sm-4 col-xs-6" id="piter">
+								<h4>Cанкт-петербург</h4>
+								<span>+7 (812) 244-95-95</span>
+							</li>
+							<li class="col-lg-3 col-md-3 col-sm-4 col-xs-6" id="moskow">
+								<h4>Москва</h4>
+								<span>+7 (495) 648-78-00</span>
+							</li>
+							<li class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="find_us">
+								<h4>Следите за нами</h4>
+								<ul id="social_net_list">
+									<li><a href="#"><img src="images/vk-social-network-logo.svg" alt="vk"></a></li>
+									<li><a href="#"><img src="images/facebook-logo.svg" alt="facebook"></a></li>
+									<li><a href="#"><img src="images/icons8-Одноклассники.svg" alt="sсhool"></a></li>
+									<li><a href="#"><img src="images/twitter-logo-silhouette.svg" alt="twiter"></a></li>
+									<li><a href="#"><img src="images/youtube.svg" alt="youtube"></a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer_copyright">
+							<li class="col-lg-3 col-md-12 col-sm-12 col-xs-12" id="footer_copyright_img"><img src="images/footer_icon.png" alt="footer_copyright"> </li>
+							<li class="col-lg-5 col-md-12 col-sm-12 col-xs-12"><p>Copyright © 1994 — 2016. Компания «М-СТАЙЛ». Все права защищены</p></li>
+							<li class="col-lg-4 col-md-12 col-sm-12 col-xs-12"><p>Создание сайта — АГЕНТСТВО DIGITAL-ТРАНСФОРМАЦИИ УЛЕЙ</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
